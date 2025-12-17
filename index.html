@@ -125,7 +125,9 @@
                 <p>Recruitment Phase 1 is live. Show us what you've got.</p>
             </div>
 
-            <form action="/register" method="POST" class="glass-form">
+            <form name="club-recruitment" action="/success.html" method="POST" data-netlify="true" class="glass-form"
+                netlify>
+                <input type="hidden" name="form-name" value="club-recruitment">
                 <div class="input-group">
                     <input type="text" name="fullName" required>
                     <label>Full Name</label>
